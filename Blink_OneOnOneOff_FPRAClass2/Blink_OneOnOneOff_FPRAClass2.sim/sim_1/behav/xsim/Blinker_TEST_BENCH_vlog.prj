@@ -1,0 +1,10 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../Blink_OneOnOneOff_FPRAClass2.srcs/sources_1/new/Sources.v" \
+"../../../../Blink_OneOnOneOff_FPRAClass2.srcs/sim_1/new/Blinker_TEST_BENCH.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

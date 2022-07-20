@@ -1,0 +1,3 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Payton/Vivado_Projects/Blink_OneOnOneOff_FPRAClass2/Blink_OneOnOneOff_FPRAClass2.sim/sim_1/impl/func/xsim/Hello_func_impl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Hello
+INFO: [VRFC 10-311] analyzing module glbl

@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Fri Jul 15 16:38:55 2022
+# Process ID: 33476
+# Current directory: C:/Users/Payton/Vivado_Projects/Blink_OneOnOneOff_FPRAClass2/Blink_OneOnOneOff_FPRAClass2.runs/synth_1
+# Command line: vivado.exe -log Das_Blinkenlights.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Das_Blinkenlights.tcl
+# Log file: C:/Users/Payton/Vivado_Projects/Blink_OneOnOneOff_FPRAClass2/Blink_OneOnOneOff_FPRAClass2.runs/synth_1/Das_Blinkenlights.vds
+# Journal file: C:/Users/Payton/Vivado_Projects/Blink_OneOnOneOff_FPRAClass2/Blink_OneOnOneOff_FPRAClass2.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source Das_Blinkenlights.tcl -notrace
