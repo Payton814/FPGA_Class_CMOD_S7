@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7s25csga225-1" LaunchTime="1658775453">
+  <File Type="PA-TCL" Name="Blink_External_LED.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="Blink_External_LED_drc_synth.rpt"/>
+  <File Type="REPORTS-TCL" Name="Blink_External_LED_reports.tcl"/>
+  <File Type="RDS-RDS" Name="Blink_External_LED.vds"/>
+  <File Type="RDS-UTIL" Name="Blink_External_LED_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="Blink_External_LED_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="Blink_External_LED.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="Blink_External_LED_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="Blink_External_LED_timing_summary_synth.pb"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/clogb2.vh">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Blink_External_LED.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="Blink_External_LED"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/digilent-xdc-master/Cmod-S7-25-Master.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../digilent-xdc-master/Cmod-S7-25-Master.xdc"/>
+        <Attr Name="ImportTime" Val="1655136948"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2020">
+      <Desc>Vivado Synthesis Defaults</Desc>
+    </StratHandle>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>
