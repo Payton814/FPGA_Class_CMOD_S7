@@ -71,7 +71,8 @@ module FSM_Traffic(
 endmodule
 
 module counter(input clk,
-    output Q
+    output Q,
+    output Val
     );
     parameter FREQ = 12000000;
     `include "clogb2.vh";
@@ -85,5 +86,6 @@ module counter(input clk,
             count = count + 1;
         end
     end    
-    assign Q = (count == FREQ - 1);
+    assign Q = (count == FREQ - 1) && (clk);
+    assign Val = count;
 endmodule

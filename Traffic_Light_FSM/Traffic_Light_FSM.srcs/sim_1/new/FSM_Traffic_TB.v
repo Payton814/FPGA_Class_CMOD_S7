@@ -29,7 +29,7 @@ module FSM_Traffic_TB(
     wire pin2;
     wire pin3;
     wire Q;
-    reg CE;
+    reg [25:0] Val = 0;
     reg [5:0] CNT = 0;
     
     
@@ -38,12 +38,17 @@ module FSM_Traffic_TB(
     always begin
     if (Q) begin
         CNT <= CNT + 1;
-        
     end
-    #41.666666666666666666666666666666666666666666666666 clk = ~clk;
+    #41.666666666666666666666666666666666666666666667 clk = ~clk;
     end
+    
+    always @(posedge clk) begin
+    Val <= Val + 1;
+    end
+    
     initial begin
         clk <= 0;
+        #100;
     end
 endmodule
 
