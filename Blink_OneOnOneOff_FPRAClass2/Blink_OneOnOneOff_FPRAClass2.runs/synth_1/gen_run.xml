@@ -25,7 +25,7 @@
     <Filter Type="Constrs"/>
     <File Path="$PSRCDIR/constrs_1/imports/digilent-xdc-master/Cmod-S7-25-Master.xdc">
       <FileInfo>
-        <Attr Name="ImportPath" Val="$PPRDIR/../../digilent-xdc-master/Cmod-S7-25-Master.xdc"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../digilent-xdc-master/Cmod-S7-25-Master.xdc"/>
         <Attr Name="ImportTime" Val="1655136948"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>

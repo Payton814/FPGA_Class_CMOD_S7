@@ -1,0 +1,8 @@
+0.7
+2020.2
+Nov 18 2020
+09:47:47
+C:/Users/Payton/Vivado_Projects/FPGA_Class_CMOD_S7/Traffic_Light_FSM/Traffic_Light_FSM.sim/sim_1/behav/xsim/glbl.v,1605673889,verilog,,,,glbl,,,,,,,,
+C:/Users/Payton/Vivado_Projects/FPGA_Class_CMOD_S7/Traffic_Light_FSM/Traffic_Light_FSM.srcs/sim_1/new/FSM_Traffic_TB.v,1659066667,verilog,,,,FSM_Traffic_TB;counter_sim,,,../../../../Traffic_Light_FSM.srcs/sources_1/new,,,,,
+C:/Users/Payton/Vivado_Projects/FPGA_Class_CMOD_S7/Traffic_Light_FSM/Traffic_Light_FSM.srcs/sources_1/new/FSM_Traffic.v,1659048133,verilog,,C:/Users/Payton/Vivado_Projects/FPGA_Class_CMOD_S7/Traffic_Light_FSM/Traffic_Light_FSM.srcs/sim_1/new/FSM_Traffic_TB.v,C:/Users/Payton/Vivado_Projects/FPGA_Class_CMOD_S7/Traffic_Light_FSM/Traffic_Light_FSM.srcs/sources_1/new/clogb2.vh,FSM_Traffic;counter,,,../../../../Traffic_Light_FSM.srcs/sources_1/new,,,,,
+C:/Users/Payton/Vivado_Projects/FPGA_Class_CMOD_S7/Traffic_Light_FSM/Traffic_Light_FSM.srcs/sources_1/new/clogb2.vh,1658847593,verilog,,,,,,,,,,,,

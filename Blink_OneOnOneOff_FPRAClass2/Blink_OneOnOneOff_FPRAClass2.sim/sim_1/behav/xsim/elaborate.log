@@ -1,8 +1,13 @@
 Vivado Simulator 2020.2
 Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
-Running: C:/Users/Payton/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto c43da96bcb9b47c7996652ce13096fc0 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Blinker_TEST_BENCH_behav xil_defaultlib.Blinker_TEST_BENCH xil_defaultlib.glbl -log elaborate.log 
+Running: C:/Users/Payton/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto c43da96bcb9b47c7996652ce13096fc0 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Counter_behav xil_defaultlib.Counter xil_defaultlib.glbl -log elaborate.log 
 Using 2 slave threads.
 Starting static elaboration
 Pass Through NonSizing Optimizer
 Completed static elaboration
-INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.Counter
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot Counter_behav
