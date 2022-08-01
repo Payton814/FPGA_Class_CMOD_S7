@@ -28,12 +28,15 @@ module FSM_Traffic_TB(
     wire pin1;
     wire pin2;
     wire pin3;
+    wire pin4;
+    wire pin5;
+    wire pin6;
     wire Q;
-    reg [25:0] Val = 0;
+    reg [26:0] Val = 0;
     reg [5:0] CNT = 0;
     
     
-    FSM_Traffic FSM(.clk(clk), .pin1(pin1), .pin2(pin2), .pin3(pin3));
+    FSM_Traffic FSM(.clk(clk), .pin1(pin1), .pin2(pin2), .pin3(pin3), .pin4(pin4), .pin5(pin5), .pin6(pin6));
     counter count(.clk(clk),.Q(Q));
     always begin
     if (Q) begin
